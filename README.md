@@ -1,14 +1,21 @@
-# We Coded a Game of our Computer-Graphic-Prject
+Canvas Boilerplate is the go-to solution for quickly creating modern canvas pieces using ES6 and webpack.
 
-We thought it would be better Introduce a game using itself and this is product
+## Getting Started
 
-> # Instructions
-> - `w` - jump
-> - `a` - left
-> - `d` - right
-> - `space` - show slide
+1.  Clone the repo:
 
-# Mechanics
-- Touch a star I slide number and progress bar gets updated
-- (SlidesNumber in 1..6 )? `space` hide/show slide SlideNumber
+        git clone https://github.com/christopher4lis/canvas-boilerplate.git
 
+2.  Install dependencies:
+
+        yarn
+
+    or
+
+        npm install
+
+3.  Run webpack:
+
+        npm start
+
+Your canvas piece should open up automatically at http://localhost:3000 and you should see 'HTML CANVAS BOILERPLATE' on hover.
